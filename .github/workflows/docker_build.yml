@@ -29,7 +29,7 @@ jobs:
           context: ./
           push: true
           #dockerfile: ./Dockerfile   # Specify the path to your Dockerfile
-          tags: carolsbraz/wa-fund-cicd-lab03-02 :latest
+          tags: carolsbraz/wa-fund-cicd-lab03-02:latest
 
   deploy:
     runs-on: ubuntu-latest
